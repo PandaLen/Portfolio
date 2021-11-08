@@ -65,10 +65,24 @@ footer {
 
 .odkazy a {
     font-size: 15px !important;
+    color: rgb(114, 114, 114);
+    text-decoration: underline;
+}
+
+.odkazy a:hover {
+    color: rgb(97, 97, 97);
+}
+
+.odkazy a:active {
+    color: rgb(114, 114, 114);
 }
 
 .odkazy i {
     color: rgb(226, 101, 43);
+}
+
+.odkazy span {
+    color: rgb(114, 114, 114);
 }
 
 .nadpis2 {
