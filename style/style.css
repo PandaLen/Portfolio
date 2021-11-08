@@ -1,11 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Permanent+Marker&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(43, 43, 48) !important;
     color: white !important;
     font-family: 'Metrophobic', sans-serif !important;
 }
 
-.nav {
-    margin-top: 15px;
+.logo {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    transition: 500ms;
+}
+
+.logo:hover {
+    transition: ease-in 500ms;
+    transform: scale(1.1);
+}
+
+.nadpis {
+    color: rgb(226, 101, 43);
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+.about2 {
+    border-bottom: 1px solid white;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.about span {
+    color: rgb(226, 101, 43);
+}
+
+.btn-orange {
+    color: white !important;
+    background-color: rgb(226, 101, 43) !important;
+    border-color: rgb(226, 101, 43) !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+    border-radius: 20px !important;
+}
+
+.btn-orange:hover {
+    background-color: rgb(214, 92, 35) !important;
+    filter: drop-shadow(0px 3px 4px rgb(224, 103, 47));
+    text-decoration: none;
+}
+
+.kontakt {
+    margin-top: 180px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.odkazy a {
+    font-size: 15px !important;
+    color: rgb(114, 114, 114);
+    text-decoration: underline;
+}
+
+.odkazy a:hover {
+    color: rgb(97, 97, 97);
+}
+
+.odkazy a:active {
+    color: rgb(114, 114, 114);
+}
+
+.odkazy i {
+    color: rgb(226, 101, 43);
+}
+
+.odkazy span {
+    color: rgb(114, 114, 114);
+}
+
+.nadpis2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 15px !important;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(224, 103, 47, 0.25);
+    background-color: rgb(80, 80, 80) !important;
+    transition: 500ms;
+}
+
+.card2 {
+    margin-top: 25px;
+}
+
+.card:hover {
+    transition: ease-in 500ms;
+    transform: scale(1.025);
+}
+
+.card-text {
+    color: white !important;
+}
+
+.card-title {
+    color: white !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.jedna{
+    margin-top: 25px;
+}
+
+.dva{
+    margin-top: 50px;
 }
