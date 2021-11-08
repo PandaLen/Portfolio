@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Permanent+Marker&display=swap');
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
