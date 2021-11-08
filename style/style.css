@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: rgb(43, 43, 48) !important;
+    color: white !important;
+    font-family: 'Metrophobic', sans-serif !important;
+}
+
+.nav {
+    margin-top: 15px;
+}

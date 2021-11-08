@@ -1,0 +1,54 @@
+.logo {
+    margin-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    transition: 500ms;
+}
+
+.logo:hover {
+    transition: ease-in 500ms;
+    transform: scale(1.1);
+}
+
+.nadpis {
+    color: rgb(226, 101, 43);
+    font-family: 'Permanent Marker', cursive !important;
+}
+
+.about2 {
+    border-bottom: 1px solid white;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.about span {
+    color: rgb(226, 101, 43);
+}
+
+.btn-orange {
+    color: white !important;
+    background-color: rgb(226, 101, 43) !important;
+    border-color: rgb(226, 101, 43) !important;
+    width: 150px;
+    padding: 10px !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+}
+
+.btn-orange:hover {
+    background-color: rgb(196, 84, 32) !important;
+    filter: drop-shadow(0px 3px 4px rgb(247, 114, 53));
+}
+
+.batn {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

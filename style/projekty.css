@@ -1,0 +1,10 @@
+.logo {
+    margin-top: 2.5em;
+    position: absolute;
+    transition: 500ms;
+}
+
+.logo:hover {
+    transition: ease-in 500ms;
+    transform: scale(1.1);
+}
