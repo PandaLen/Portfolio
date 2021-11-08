@@ -129,3 +129,42 @@ footer {
 .dva{
     margin-top: 50px;
 }
+
+@media (max-width: 1200px){
+    .logo {
+        width: 20% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .card {
+        margin: 1.5em !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .card {
+        margin: 1.5em 0 1.5em 0;
+    }
+    .logo {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 673px) {
+    .logo {
+        width: 45% !important;
+    }
+}
+
+@media (max-width: 656px) {
+    .logo {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 345px) {
+    .logo {
+        width: 80% !important;
+    }
+}
